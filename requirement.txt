@@ -1,2 +1,3 @@
 djangorestframework
 pillow
+drf_yasg
