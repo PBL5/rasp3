@@ -18,7 +18,7 @@ schema_view = get_schema_view(
 )
 
 urlpatterns = [
-    path('capture/', views.PictureAPIView),
+    path('capture/', views.PictureAPIView.as_view()),
     path('doc',
          schema_view.with_ui('swagger', cache_timeout=0),
          name='schema-swagger-ui'),
